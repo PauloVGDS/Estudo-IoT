@@ -7,5 +7,13 @@
     ],
     "idf.portWin": "COM9",
     "idf.toolsPathWin": "C:\\Users\\lordk\\.espressif",
-    "idf.flashType": "UART"
+    "idf.flashType": "UART",
+    "idf.customExtraVars": {
+        "IDF_TARGET": "esp32"
+    },
+    "files.associations": {
+        "bitset": "c",
+        "algorithm": "c",
+        "format": "c"
+    }
 }

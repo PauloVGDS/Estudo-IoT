@@ -30,7 +30,7 @@ void my_display_ui(lv_disp_t *disp) {
     // Cria um label
     lv_obj_t *label = lv_label_create(lv_scr_act());
     // Texto a ser exibido
-    lv_label_set_text(label, "BLIPS");
+    lv_label_set_text(label, "Paulo Vinicius Gomes da Silva");
     lv_label_set_long_mode(label, LV_LABEL_LONG_SCROLL_CIRCULAR);
 
     lv_obj_set_width(label, 100); 
