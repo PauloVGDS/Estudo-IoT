@@ -7,11 +7,5 @@
     ],
     "idf.portWin": "COM9",
     "idf.toolsPathWin": "C:\\Users\\lordk\\.espressif",
-    "idf.flashType": "UART",
-    "github.copilot.enable": {
-        "*": false,
-        "plaintext": false,
-        "markdown": false,
-        "scminput": false
-    }
+    "idf.flashType": "UART"
 }
