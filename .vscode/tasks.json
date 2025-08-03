@@ -1,0 +1,56 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "echo",
+            "type": "shell",
+            "command": "echo Hello"
+        },
+        {
+            "type": "shell",
+            "label": "Compile C",
+            "command": "C:\\MinGW\\bin\\gcc.exe -std=c11 -Wall -Wextra -g ${file} -o ${fileDirname}\\${fileBasenameNoExtension}.exe && ./${fileBasenameNoExtension}.exe && rm ${fileBasenameNoExtension}.exe",
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "detail": "compilador: C:\\MinGW\\bin\\gcc.exe"
+        },
+        {
+            "type": "shell",
+            "label": "Compile C++",
+            "command": "C:\\MinGW\\bin\\g++.exe -std=c++17 -Wall -Wextra -Weffc++ -Wconversion -Wsign-conversion -g ${file} -o ${fileDirname}\\${fileBasenameNoExtension}.exe && ./${fileBasenameNoExtension}.exe && rm ./${fileBasenameNoExtension}.exe",
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [],
+            "group": "build",
+            "detail": "compilador: C:\\MinGW\\bin\\g++.exe"
+        },
+        {
+            "type": "shell",
+            "label": "Save Exercise",
+            "command": "cp ${file} .\\embeddedPath\\exercise_${input:number}.c",
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [],
+            "group": "build",
+            "detail": "compilador: C:\\MinGW\\bin\\gcc.exe",
+            "isBackground": true
+        }
+    ],
+    "inputs": [
+        {
+            "id": "number",
+            "type": "promptString",
+            "description": "Digite o número:"
+        }
+    ]
+}
