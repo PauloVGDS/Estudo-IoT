@@ -15,8 +15,8 @@
 #include <ArduinoJson.h>
 
 // ========== CONFIGURAÇÕES DE REDE ==========
-const char* ssid = "your-ssid";          // Substitua pelo seu SSID WiFi
-const char* password = "your-password";  // Substitua pela sua senha WiFi
+const char* ssid = "IDEAL";          // Substitua pelo seu SSID WiFi
+const char* password = "Blips1521";  // Substitua pela sua senha WiFi
 
 // ========== CONFIGURAÇÕES DOS ESP32 REMOTOS ==========
 // IPs dos ESP32s que serão controlados como endpoints

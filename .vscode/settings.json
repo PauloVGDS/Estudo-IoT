@@ -1,5 +1,5 @@
 {
-    "idf.espIdfPathWin": "C:\\Users\\lordk\\esp\\v5.4\\esp-idf",
-    "idf.toolsPathWin": "C:\\Users\\lordk\\.espressif",
-    "idf.pythonInstallPath": "C:\\Users\\lordk\\.espressif\\tools\\idf-python\\3.11.2\\python.exe"
+    "idf.espIdfPathWin": "C:\\Users\\Paulo\\esp\\v5.4.1\\esp-idf",
+    "idf.toolsPathWin": "C:\\Users\\Paulo\\.espressif",
+    "idf.pythonInstallPath": "C:\\Users\\Paulo\\.espressif\\tools\\idf-python\\3.11.2\\python.exe"
 }
